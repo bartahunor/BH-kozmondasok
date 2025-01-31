@@ -70,7 +70,7 @@ namespace BH_kozmondasok
             {
                 for (int j = 0; j < ossz[i].Length; j++)
                 {
-                    if (ossz[i][j] != ' ' || ossz[i][j] != ',') { nemkoz++; }
+                    if (ossz[i][j] != ' ') { nemkoz++; }
                 }
             }
             Console.WriteLine($"{nemkoz}db karakter van, ami nem szóköz");
